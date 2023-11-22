@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#container {
+    text-align: center;
+}
+
+#voice-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.voice-button {
+    border-radius: 50%;
+    margin: 5px;
+    padding: 0; /* Remove padding to ensure proper image fit */
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+}
+
+.voice-button.selected {
+    border: 7px solid #33cc33; /* Change the color as needed */
+}
+
+#speech-button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #33cc33;
+    font-size: larger;
+    /* font-weight: ; */
+    text-shadow: 1px 1px 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+}
